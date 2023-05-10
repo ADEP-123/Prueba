@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap-->
+    <script src="../Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/tablas.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Campus-Core</h1>
+      <nav id="navbar">
+        <a href="index.html"><img src="../imgs/back.png" /></a>
+        <a href="reclutas.html"><img src="../imgs/reclutas.png" /></a>
+        <a href="teams.html"><img src="../imgs/teams.png" /></a>
+      </nav>
+    </div>
+
+    <div id="contenido">
+      <div id="manPanel"></div>
+      <div id="tabla">
+        <table>
+          <thead>
+            <h1>Modulo Skills</h1>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Id</td>
+              <td>Nombre</td>
+            </tr>
+          </tbody>
+          <tbody id="skillsimpr"></tbody>
+        </table>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <table border="1px">
+              <thead>
+                <h1>SKILLS</h1>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Id</td>
+                  <td><input type="text" id="idskill" /></td>
+                </tr>
+                <tr>
+                  <td>Nombre</td>
+                  <td><input type="text" id="nomSkill" /></td>
+                </tr>
+                <tr>
+                  <td>
+                    <button id="agregarSkill">
+                      <img src="../imgs/addUs.png" />
+                    </button>
+                    <button id="modificarSkill">
+                      <img src="../imgs/modUS.png" alt="" />
+                    </button>
+                    <button id="eliminarSkill">
+                      <img src="../imgs/ElUs.png" alt="" />
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/skills/skills.js" type="module"></script>
+  </body>
+</html>

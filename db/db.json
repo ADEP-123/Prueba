@@ -1,0 +1,107 @@
+{
+  "Campers": [
+    {
+      "id": "1",
+      "nombre": "Paco",
+      "edad": "",
+      "telefono": "",
+      "direccion": "",
+      "fechaNacimiento": "1999-05-06",
+      "numIdUsuario": "",
+      "fechIngreso": "2022-08-01",
+      "idTeamUsuario": "1234"
+    },
+    {
+      "id": "2",
+      "nombre": "",
+      "edad": "",
+      "telefono": "",
+      "direccion": "",
+      "fechaNacimiento": "",
+      "numIdUsuario": "",
+      "fechIngreso": "2023-05-06",
+      "idTeamUsuario": "1234"
+    },
+    {
+      "id": "3",
+      "nombre": "pato",
+      "edad": "",
+      "telefono": "",
+      "direccion": "",
+      "fechaNacimiento": "2020-05-06",
+      "numIdUsuario": "",
+      "fechIngreso": "",
+      "idTeamUsuario": "321"
+    },
+    {
+      "id": "4",
+      "nombre": "t54wtbxb",
+      "edad": "",
+      "telefono": "",
+      "direccion": "",
+      "fechaNacimiento": "",
+      "numIdUsuario": "",
+      "fechIngreso": "",
+      "idTeamUsuario": "321"
+    }
+  ],
+  "Teams": [
+    {
+      "id": "F8hy7ig",
+      "nombre": "dsadsa",
+      "trainer": "dsadsa"
+    },
+    {
+      "id": "321",
+      "nombre": "dsadsa",
+      "trainer": "321321"
+    },
+    {
+      "id": "1234",
+      "nombre": "dsadsa",
+      "trainer": "321321"
+    }
+  ],
+  "ModuloSkills": [
+    {
+      "id": "khKDNS4",
+      "nombre": "321321321",
+      "skillId": ""
+    },
+    {
+      "id": "khKDN123123S4",
+      "nombre": "321321321",
+      "skillId": "1"
+    },
+    {
+      "id": "khKDN12323S4",
+      "nombre": "32131321",
+      "skillId": "2"
+    }
+  ],
+  "Skills": [
+    {
+      "id": 1,
+      "nombre": ""
+    },
+    {
+      "id": 2,
+      "nombre": ""
+    },
+    {
+      "id": 3,
+      "nombre": ""
+    },
+    {
+      "id": 4,
+      "nombre": ""
+    },
+    {
+      "id": 5,
+      "nombre": ""
+    }
+  ],
+  "Evaluaciones": [
+    {}
+  ]
+}

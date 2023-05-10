@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap-->
+    <script src="../Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/tablas.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="header" class="row">
+      <div class="row">
+        <h1>Campus-Core</h1>
+      </div>
+      <div class="row">
+        <nav id="navbar">
+          <a href="index.html"
+            ><p>
+              <img src="../imgs/back.png" /><br />
+              Regresar
+            </p></a
+          >
+          <a href="teams.html"
+            ><p>
+              <img src="../imgs/teams.png" /><br />
+              Teams
+            </p></a
+          >
+          <a href="modulo_skills.html"
+            ><p><img src="../imgs/skills.png" /> <br />Modulo Skills</p></a
+          >
+          <a href="evaluacion.html"
+            ><p><img src="../imgs/evaluacion.png" /><br />Evaluacion</p></a
+          >
+        </nav>
+      </div>
+    </div>
+
+    <div id="contenido" class="container">
+      <div id="manPanel" class="row"></div>
+      <div id="tabla">
+        <table>
+          <thead>
+            <h1>Usuarios Campus-Core</h1>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Id</td>
+              <td>Nombre</td>
+              <td>Edad</td>
+              <td>Telefono</td>
+              <td>Direccion</td>
+              <td>Fecha de Nacimiento</td>
+              <td>Numero de identificacion</td>
+              <td>Fecha Ingreso</td>
+              <td>Team</td>
+            </tr>
+          </tbody>
+          <tbody id="reclutasimpr"></tbody>
+        </table>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col" id="tablaingreso">
+            <table border="1px">
+              <thead>
+                <h1>Datos de ingreso reclutas</h1>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Id</td>
+                  <td><input type="text" id="idUs" /></td>
+                </tr>
+                <tr>
+                  <td>Nombre</td>
+                  <td><input type="text" id="nomUs" /></td>
+                </tr>
+                <tr>
+                  <td>Edad</td>
+                  <td><input type="text" id="edadUs" /></td>
+                </tr>
+                <tr>
+                  <td>Telefono</td>
+                  <td><input type="number" id="telUs" /></td>
+                </tr>
+                <tr>
+                  <td>Dirección</td>
+                  <td><input type="text" id="direcUs" /></td>
+                </tr>
+                <tr>
+                  <td>Fecha de nacimiento</td>
+                  <td><input type="date" id="fechUs" /></td>
+                </tr>
+                <tr>
+                  <td>Numero de Identificacion</td>
+                  <td><input type="text" id="numIdUs" /></td>
+                </tr>
+                <tr>
+                  <td>Fecha de ingreso al programa</td>
+                  <td><input type="date" id="ingUs" /></td>
+                </tr>
+                <tr>
+                  <td>Id-team</td>
+                  <td><input type="text" id="idTeamUs" /></td>
+                </tr>
+                <tr>
+                  <td>
+                    <button id="agregarUsuario">
+                      <img src="../imgs/addUs.png" />
+                    </button>
+                    <button id="modificarUsuario">
+                      <img src="../imgs/modUS.png" alt="" />
+                    </button>
+                    <button id="eliminarUsuario">
+                      <img src="../imgs/ElUs.png" alt="" />
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/reclutas/reclutas.js" type="module"></script>
+  </body>
+</html>

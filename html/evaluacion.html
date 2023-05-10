@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap-->
+    <script src="../Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/tablas.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Campus-Core</h1>
+      <nav id="navbar">
+        <a href="index.html"
+          ><p>
+            <img src="../imgs/back.png" /><br />
+            Regresar
+          </p></a
+        >
+        <a href="reclutas.html"
+          ><p><img src="../imgs/reclutas.png" /> <br />Reclutas</p></a
+        >
+        <a href="modulo_skills.html">
+          <p><img src="../imgs/skills.png" /> <br />Modulo Skills</p></a
+        >
+        <a href="teams.html"
+          ><p>
+            <img src="../imgs/teams.png" /><br />
+            Teams
+          </p></a
+        >
+      </nav>
+    </div>
+
+    <div id="contenido">
+      <div id="manPanel"></div>
+      <div id="tabla">
+        <table>
+          <thead>
+            <h1>Evaluaciones Campers</h1>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Id Camper</td>
+              <td>Id Modulo</td>
+              <td>Nota</td>
+            </tr>
+          </tbody>
+          <tbody id="evalImpr"></tbody>
+        </table>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <table border="1px">
+              <thead>
+                <h1>Agregar Evaluaciones</h1>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Id Camper</td>
+                  <td><input type="text" id="idCamp" /></td>
+                </tr>
+                <tr>
+                  <td>Id Modulo</td>
+                  <td><input type="text" id="idMod" /></td>
+                </tr>
+                <tr>
+                  <td>Nota</td>
+                  <td><input type="number" id="nota" /></td>
+                </tr>
+                <tr>
+                  <td>
+                    <button id="agregarEval">
+                      <img src="../imgs/addUs.png" />
+                    </button>
+                    <button id="modificarEval">
+                      <img src="../imgs/modUS.png" alt="" />
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/evaluacion/evaluaciones.js" type="module"></script>
+  </body>
+</html>

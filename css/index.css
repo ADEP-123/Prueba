@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#inicio {
+    background-image: url("../imgs/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white !important;
+}
+#divBienvenido{
+    display: flex;
+    justify-content: center;
+}
+#bienvenido{
+    width: 50%;
+    border: 1px solid white !;
+    text-align: center;
+    
+}
+#bienvenido a{
+    text-decoration: none;
+    color: black ;
+    background-color: azure ;
+    border: 1px solid white;
+    font-size: xx-large;
+}
+#bienvenido a:hover{
+    box-shadow: 4px 4px 20px rgb(100, 100, 231);
+}
+table, th, td {
+    border: 1.5px solid white;
+    text-align: center;
+  }
+h1, h2{
+    text-align: center;
+}
+.teams{
+    border: 2px solid white;
+    text-align: center;
+}

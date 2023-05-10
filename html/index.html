@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Campus-Core</title>
+  </head>
+  <body>
+    <div class="container-fluid" id="inicio">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6" id="divBienvenido">
+          <article id="bienvenido">
+            <h1>Campus-Core</h1>
+            <p>¡Bienvenido!</p>
+            <a href="reclutas.html">Navegar</a>
+          </article>
+        </div>
+        <div class="col-3"></div>
+      </div>
+
+      <div class="row">
+        <h1 id="Estadisticas">Estadisticas</h1>
+        <hr>
+
+        <div class="row">
+          <table>
+            <thead>
+              <tr>
+                <h2>Estudiantes con mas de dos meses</h1>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td >Id</td>
+                <td>Nombre</td>
+              </tr>
+            </tbody>
+            <tbody id="mas2meses"></tbody>
+          </table>
+          <hr>
+        </div>
+
+        <div class="row">
+          <h2>Teams</h2>
+          <div class="row" id="teamss"></div>
+        </div>
+
+        <div class="row">
+          <h2>Skills</h2>
+          <div class="row" id="moduloss"></div>
+        </div>
+
+        <div class="row">
+          <table>
+            <thead>
+              <h2>Estudiantes menores de edad</h2>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Id</td>
+                <td>Nombre</td>
+              </tr>
+            </tbody>
+            <tbody id="menoresEdad"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/index/index.js"></script>
+  </body>
+</html>
